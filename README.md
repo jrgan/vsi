@@ -11,19 +11,7 @@ This repository accompanies the SCMDP paper:
 Jiarui Gan and Debmalya Mandal. *Subprocess-Constrained Markov Decision
 Processes* (2026).
 [arXiv:2611.21471](https://arxiv.org/abs/2611.21471).
-
-### Related Markov games paper
-
-The value-set iteration framework and the Markov games domain are described in:
-
-Jiarui Gan and Rupak Majumdar. *Value-Set Iteration: Computing Optimal Correlated
-Equilibria in Infinite-Horizon Multi-Player Stochastic Games* (2025).
-[arXiv:2506.07186](https://arxiv.org/abs/2506.07186).
-
-If you use this implementation in research, please cite the SCMDP paper. For work
-using the Markov games domain, please also cite the Markov games paper.
-
-### BibTeX
+(To appear in NeurIPS 2026.)
 
 ```bibtex
 @misc{gan2026subprocess,
@@ -36,7 +24,17 @@ using the Markov games domain, please also cite the Markov games paper.
   doi           = {10.48550/arXiv.2611.21471},
   url           = {https://arxiv.org/abs/2611.21471}
 }
+```
 
+### Related Markov games paper
+
+The value-set iteration framework and the Markov games domain are described in:
+
+Jiarui Gan and Rupak Majumdar. *Value-Set Iteration: Computing Optimal Correlated
+Equilibria in Infinite-Horizon Multi-Player Stochastic Games* (2025).
+[arXiv:2506.07186](https://arxiv.org/abs/2506.07186).
+
+```bibtex
 @misc{gan2025valuesetiteration,
   title         = {Value-Set Iteration: Computing Optimal Correlated Equilibria in Infinite-Horizon Multi-Player Stochastic Games},
   author        = {Jiarui Gan and Rupak Majumdar},
@@ -48,6 +46,9 @@ using the Markov games domain, please also cite the Markov games paper.
   url           = {https://arxiv.org/abs/2506.07186}
 }
 ```
+
+If you use this implementation in research, please cite the SCMDP paper. For work
+using the Markov games domain, please also cite the Markov games paper.
 
 ## Overview
 
