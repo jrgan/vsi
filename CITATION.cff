@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+type: software
+title: "VSI: Value-Set Iteration"
+message: >-
+  If you use this implementation in research, please cite the SCMDP paper below.
+  For work using the Markov-games domain, please also cite the Markov-games paper
+  listed in references.
+authors:
+  - family-names: Gan
+    given-names: Jiarui
+repository-code: "https://github.com/jrgan/VSI"
+url: "https://github.com/jrgan/VSI"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Subprocess-Constrained Markov Decision Processes"
+  authors:
+    - family-names: Gan
+      given-names: Jiarui
+    - family-names: Mandal
+      given-names: Debmalya
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2611.21471"
+  url: "https://arxiv.org/abs/2611.21471"
+references:
+  - type: article
+    title: >-
+      Value-Set Iteration: Computing Optimal Correlated Equilibria in
+      Infinite-Horizon Multi-Player Stochastic Games
+    authors:
+      - family-names: Gan
+        given-names: Jiarui
+      - family-names: Majumdar
+        given-names: Rupak
+    year: 2025
+    journal: arXiv
+    doi: "10.48550/arXiv.2506.07186"
+    url: "https://arxiv.org/abs/2506.07186"

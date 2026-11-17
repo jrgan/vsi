@@ -1,0 +1,7 @@
+gurobipy>=13.0
+matplotlib>=3.10
+Pillow>=11
+numpy>=2.0
+rich>=14.0
+scipy>=1.15
+typing-extensions>=4.0

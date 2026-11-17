@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Experiment outputs (large, machine-generated)
+results/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Gurobi licence
+gurobi.lic

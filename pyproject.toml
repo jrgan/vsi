@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vsi"
+version = "0.1.0"
+description = "Value-set iteration for constrained MDPs and Markov games"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Jiarui Gan"}]
+dynamic = ["dependencies"]
+
+[project.urls]
+Repository = "https://github.com/jrgan/VSI"
+
+[tool.setuptools.packages.find]
+include = ["vsi", "vsi.*", "scmdp", "scmdp.*", "markovgame", "markovgame.*"]
+namespaces = false
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
